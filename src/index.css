@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Home Section */
+
+.card-bg-img {
+  height: 550px;
+  height: 550px;
+  object-fit: cover;
+}
+
+#trading-iphones {
+  position: absolute;
+  top: 2005px;
+  left: 314px;
+}
+
+#trading-link {
+  position: absolute;
+  top: 2074px;
+  left: 354px;
+}
+
+#ipad-text {
+  position: absolute;
+  top: 2567px;
+  left: 353px;
+}
+
+#ipad-links {
+  position: absolute;
+  top: 2638px;
+  left: 372px;
+}
+
+#mother-text {
+  position: absolute;
+  top: 3141px;
+  left: 322px;
+}
+
+#mother-link {
+  position: absolute;
+  top: 3287px;
+  left: 409px;
+}
+
+#dev-conference-text {
+  position: absolute;
+  top: 2370px;
+  left: 1243px;
+}
+
+#dev-link {
+  position: absolute;
+  top: 2469px;
+  left: 1382px;
+}
+
+#small-bus-text {
+  position: absolute;
+  top: 2571px;
+  left: 1316px;
+}
+
+#small-bus-link {
+  position: absolute;
+  top: 2671px;
+  left: 1383px;
+}
+
+#apple-card-text {
+  position: absolute;
+  top: 3121px;
+  left: 1289px;
+}
+
+#card-links {
+  position: absolute;
+  top: 3226px;
+  left: 1322px;
+}
+
+.fine-print {
+  width: 60%;
+  
+}
+
+hr {
+  color: grey;
+  height: 5px;
+  width: 50%;
+}
+
+.footer-links-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-links-container li {
+  font-size: .875rem;
+  line-height: 1rem;
+}
