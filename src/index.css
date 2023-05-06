@@ -100,7 +100,7 @@ body {
 
 .fine-print {
   width: 60%;
-  
+
 }
 
 hr {
@@ -116,4 +116,173 @@ hr {
 .footer-links-container li {
   font-size: .875rem;
   line-height: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .home-title img,
+  .home-new-phone-card img {
+    right: 775px;
+  }
+
+  .home-title-text {
+    left: 568px;
+  }
+
+  .home-title-links {
+    left: 615px;
+  }
+
+  #watch-img {
+    left: -777px;
+  }
+
+  .phone-card-text {
+    left: 617px;
+  }
+
+  .phone-card-links {
+    left: 619px;
+  }
+
+  .watch-card-title-text {
+    left: 617px;
+  }
+
+  .watch-card-links {
+    left: 619px;
+  }
+
+  #trading-iphones {
+    left: 215px;
+  }
+
+  #trading-link {
+    left: 250px;
+  }
+  
+  #ipad-text {
+    left: 232px;
+  }
+
+  #ipad-links {
+    left: 250px;
+  }
+
+  #mother-text {
+    left: 215px;
+  }
+
+  #mother-link {  
+    left: 296px;
+  }
+
+  #dev-conference-text {
+    left: 890px;
+  }
+
+  #dev-link {
+    left: 1033px;
+  }
+
+  #small-bus-text {
+    left: 980px;
+  }
+
+  #small-bus-link {
+    left: 1033px;
+  }
+
+  #apple-card-text {
+    left: 950px;
+  }
+
+  #card-links {
+    left: 980px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .home-title img {
+    right: 205px
+  }
+
+  .home-title-text {
+    left: 1124px;
+  }
+
+  .home-title-links {
+    left: 1171px;
+  }
+
+  .home-new-phone-card img {
+    right: 215px;
+  }
+
+  .phone-card-text {
+    left: 1171px;
+  }
+
+  .phone-card-links {
+    left: 1184px;
+  }
+
+  #watch-img {
+    left: -233px;
+  }
+
+  .watch-card-title-text {
+    left: 1171px;
+  }
+
+  .watch-card-links {
+    left: 1171px;
+  }
+
+  #trading-iphones {
+    left: 457px;
+  }
+
+  #trading-link {
+    left: 490px;
+  }
+
+  #ipad-text {
+    left: 457px;
+  }
+
+  #ipad-links {
+    left: 490px;
+  }
+
+  #mother-text {
+    left: 457px;
+  }
+
+  #mother-link {
+    left: 536px;
+  }
+
+  #dev-conference-text {
+    left: 1620px;
+  }
+
+  #dev-link {
+    left: 1763px;
+  }
+
+  #small-bus-text {
+    left: 1701px;
+  }
+
+  #small-bus-link {
+    left: 1763px;
+  }
+
+  #apple-card-text {
+    left: 1682px;
+  }
+
+  #card-links {
+    left: 1714px;
+  }
 }

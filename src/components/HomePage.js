@@ -112,6 +112,7 @@ function HomePage() {
           src="https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg"
           alt="Apple Watch Series 8"
           className="max-w-max relative left-new-watch-left"
+          id="watch-img"
         />
         <div className="watch-card-title-text text-center absolute top-new-watch-text-top left-new-watch-text-left">
           <div className="watch-card-title-header flex items-center justify-center text-white">
@@ -164,7 +165,7 @@ function HomePage() {
               alt="Trading iPhones"
               className="card-bg-img"
             />
-            <div className="text-center" id="trading-iphones">
+            <div className="text-center card-text-light" id="trading-iphones">
               <div className="card-text-header flex items-center justify-center">
                 <img src={BlackApple} alt="Apple Logo" className="w-6" />
                 <h2 className="text-4xl font-semibold">Trade In</h2>
